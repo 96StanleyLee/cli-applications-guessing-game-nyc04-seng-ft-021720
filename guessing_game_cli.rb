@@ -10,6 +10,8 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{computer_number}."
   elsif input.to_i == computer_number
     puts "You guessed the correct number!"
+  else
+    puts "Invalid Input"
   end
 
 end
