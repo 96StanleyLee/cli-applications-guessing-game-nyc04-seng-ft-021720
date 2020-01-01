@@ -4,6 +4,7 @@ def run_guessing_game
   computer_number = rand(6) + 1
   input = gets.chomp
   computer_number = computer_number.to_i
+  input = input.to_i
   if input == 'exit'
     puts "Goodbye!"
   elsif input != computer_number
