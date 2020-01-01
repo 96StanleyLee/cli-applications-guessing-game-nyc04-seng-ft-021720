@@ -10,6 +10,6 @@ def run_guessing_game
   when input == computer_number
     print "You guessed the correct number!"
   when input == "exit"
-    puts "Goodbye!"
+    print "Goodbye!"
   end
 end
