@@ -1,6 +1,7 @@
 # Code your solution here!
 def run_guessing_game
-  computer_number = rand(6) + 1
+  puts "Please enter the number you think the computer has chosen"
+  computer_number = rand(1,6)
   input = gets.chomp
 
   if input == computer_number
