@@ -8,7 +8,7 @@ def run_guessing_game
   when input < computer_number
     print "Sorry! The computer guessed #{computer_number}"
   when input == computer_number
-    puts "You guessed the correct number!"
+    print "You guessed the correct number!"
   when input == "exit"
     puts "Goodbye!"
   end
