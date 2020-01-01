@@ -9,4 +9,10 @@ def run_guessing_game
     puts "Sorry! The computer guessed #{computer_number}."
   end
 
+  input = input.to_i
+  if input.to_i == computer_number
+  puts "You guessed the correct number!"
+  end
+
+
 end
